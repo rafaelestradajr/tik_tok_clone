@@ -1,0 +1,26 @@
+.videoFooter {
+  position: relative;
+  bottom: 50px;
+  color: white;
+  display: flex;
+}
+.videoFooter__record {
+  animation: spinTheRecord infinite 5s linear;
+  -webkit-animation: spinTheRecord infinite 5s linear;
+}
+@keyframes spinTheRecord {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: (360deg);
+    -webkit-transform: (360deg);
+    -moz-transform: (360deg);
+    -ms-transform: (360deg);
+    -o-transform: (360deg);
+  }
+}
